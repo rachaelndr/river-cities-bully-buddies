@@ -1,0 +1,55 @@
+/* Base Styles --------*/ 
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    
+    @include text(1em, 1.5, $color: $san-juan);
+    margin: 0;
+    font-family: $font-Georgia;
+}
+
+main {
+    padding: 10px 20px;
+}
+
+h1 {
+    @extend %centered;
+    font-size: 2em;
+    font-family: $font-Georgia;
+} 
+
+
+h2,
+p {
+    padding: 5px 10px;
+}
+
+.wrap {
+    min-height: calc(100vh - 94px);
+}
+
+.picture {
+    margin: auto;
+    display: block;
+    width: 50%;
+}
+
+
+/* Pseudo-classes ------------------ */
+
+a {
+    &:link {
+        color: $ming;
+        text-decoration: none;
+    }
+    &:visited {
+        color: $color-prim;
+    }
+    &:hover {
+        color: $lotus;
+        text-decoration: underline wavy;
+    }
+}

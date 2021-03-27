@@ -1,0 +1,60 @@
+// ======================================
+//  Button Styles
+// ======================================
+
+/* Bone-styled button found stackoverflow.com */
+.bone{
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    width: 150px;
+    height: 78px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+  }
+  .c1, .c2, .c3, .c4{
+    background: $white;
+    height: 45px;
+    width: 30px;
+    border: 1px solid $san-juan;
+    border-radius: 50%;
+    position:absolute;
+  }
+  .c1{ /*top left circle*/
+    left: 0;
+    top: 0;
+  }
+  .c2{ /*top right circle*/
+    right: 0;
+    top: 0;
+  }
+  .c3{ /*bottom left circle*/
+    left: 0;
+    bottom: 0;
+  }
+  .c4{ /*bottom right circle*/
+    bottom: 0;
+    right: 0;
+  }
+  .b1 {
+    background: $white;
+    height: 46px;
+    width: 120px;
+    position:absolute;  
+    left: 15px;
+    top: 15px;
+  }
+  .b2 { /*top and bottom line of bone*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 15px;
+    top: 0;
+    width: 90px;
+    height: 45px;
+    line-height: 20px;
+    border-top: 1px solid $san-juan;
+    border-bottom: 1px solid $san-juan;
+  }

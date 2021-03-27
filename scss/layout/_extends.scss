@@ -1,0 +1,48 @@
+// Center text
+
+%centered {
+    text-align: center;
+   }
+
+
+// Containers
+
+%content {
+    width: 75%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    max-width: 960px;
+    @media #{$brk-wide} {
+      width: 90%;
+    }
+    @media #{$brk-narrow} {
+      width: 100%;
+      padding: 20px;
+      border-top: none;
+    }
+  }
+
+  %border-rounded {
+    border-radius: 10px;
+  }
+
+  // Columns
+
+// %columns {
+//     width: 46.5%;
+//     // @media #{$brk-narrow} {
+//     //   width: 50%;
+//     // }
+//   }
+
+
+// Clearfix
+
+%clearfix {
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }

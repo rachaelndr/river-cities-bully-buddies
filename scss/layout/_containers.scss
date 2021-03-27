@@ -1,0 +1,28 @@
+// Forms
+
+
+
+.form {
+    @extend %centered;
+    padding: 10px 20px;
+}
+
+
+fieldset {
+    @extend %centered;
+    @extend %border-rounded;
+    display: inline-block;
+    border: 2px solid $color-prim;
+    padding: 10px 10px;
+    margin: 0 0 10px 0;
+    width: 75%;
+}
+
+input,
+textarea {
+    @extend %border-rounded;
+    width: 300px;
+    padding:5px;
+    margin:10px 0;
+    box-shadow: 0 0 1px 1px $grey;
+  }

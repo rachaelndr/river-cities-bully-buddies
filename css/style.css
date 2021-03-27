@@ -1,0 +1,180 @@
+/* Base Styles --------*/
+* {
+  box-sizing: border-box; }
+
+body {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #2C5974;
+  margin: 0;
+  font-family: Georgia, Times, serif; }
+
+main {
+  padding: 10px 20px; }
+
+h1 {
+  font-size: 2em;
+  font-family: Georgia, Times, serif; }
+
+h2,
+p {
+  padding: 5px 10px; }
+
+.wrap {
+  min-height: calc(100vh - 94px); }
+
+.picture {
+  margin: auto;
+  display: block;
+  width: 50%; }
+
+/* Pseudo-classes ------------------ */
+a:link {
+  color: #3e6484;
+  text-decoration: none; }
+a:visited {
+  color: #d07f83; }
+a:hover {
+  color: #7c3f3d;
+  text-decoration: underline wavy; }
+
+h1, .main-header, .nav a, footer, footer a, .form, fieldset {
+  text-align: center; }
+
+.column {
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 960px; }
+  @media (min-width: 768px) {
+    .column {
+      width: 90%; } }
+  @media (min-width: 320px) {
+    .column {
+      width: 100%;
+      padding: 20px;
+      border-top: none; } }
+
+fieldset, input,
+textarea {
+  border-radius: 10px; }
+
+.column:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.main-header {
+  background: linear-gradient(#d07f83, #fff, #fade12);
+  background-size: cover;
+  font-family: Georgia, Times, serif; }
+
+.nav a {
+  padding: 20px;
+  display: inline-block; }
+
+footer {
+  background: #fce85d;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 10px; }
+  footer a {
+    padding: 20px;
+    display: inline; }
+
+.form {
+  padding: 10px 20px; }
+
+fieldset {
+  display: inline-block;
+  border: 2px solid #d07f83;
+  padding: 10px 10px;
+  margin: 0 0 10px 0;
+  width: 75%; }
+
+input,
+textarea {
+  width: 300px;
+  padding: 5px;
+  margin: 10px 0;
+  box-shadow: 0 0 1px 1px #676767; }
+
+@media (min-width: 768px) {
+  .news {
+    float: left;
+    width: 50%; } }
+
+@media (min-width: 768px) {
+  .events {
+    float: right;
+    width: 50%; } }
+
+.story {
+  margin: auto;
+  display: block;
+  width: 50%; }
+
+/* Bone-styled button found stackoverflow.com */
+.bone {
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  width: 150px;
+  height: 78px;
+  cursor: pointer;
+  background: transparent;
+  border: none; }
+
+.c1, .c2, .c3, .c4 {
+  background: #fff;
+  height: 45px;
+  width: 30px;
+  border: 1px solid #2C5974;
+  border-radius: 50%;
+  position: absolute; }
+
+.c1 {
+  /*top left circle*/
+  left: 0;
+  top: 0; }
+
+.c2 {
+  /*top right circle*/
+  right: 0;
+  top: 0; }
+
+.c3 {
+  /*bottom left circle*/
+  left: 0;
+  bottom: 0; }
+
+.c4 {
+  /*bottom right circle*/
+  bottom: 0;
+  right: 0; }
+
+.b1 {
+  background: #fff;
+  height: 46px;
+  width: 120px;
+  position: absolute;
+  left: 15px;
+  top: 15px; }
+
+.b2 {
+  /*top and bottom line of bone*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 15px;
+  top: 0;
+  width: 90px;
+  height: 45px;
+  line-height: 20px;
+  border-top: 1px solid #2C5974;
+  border-bottom: 1px solid #2C5974; }
+
+/*# sourceMappingURL=style.css.map */

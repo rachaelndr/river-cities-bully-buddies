@@ -1,0 +1,32 @@
+// Descriptive Color Variables
+
+$white         : #fff;
+$black         : #000;
+$grey          : #676767;
+$ming          : #3e6484;
+$new-york-pink : #d07f83;
+$candlelight   : #fade12;
+$lotus         : #7c3f3d;
+$san-juan      : #2C5974;
+
+
+// Functional color variables
+
+$color-prim : $new-york-pink;
+$color-sec  : $candlelight;
+
+
+// Font Stacks
+
+$font-Georgia: Georgia, Times, serif;
+
+
+// Asset paths
+
+$path-pic : 'pictures/';
+
+
+// Media query breakpoints
+
+$brk-narrow : '(min-width: 320px)';
+$brk-wide   : '(min-width: 768px)';

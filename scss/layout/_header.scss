@@ -1,0 +1,14 @@
+.main-header {
+    @extend %centered;
+    background: linear-gradient($color-prim, $white, $color-sec);
+    background-size: cover;
+    font-family: $font-Georgia;
+}
+
+.nav {
+    a {
+        @extend %centered;
+        padding: 20px;
+        display: inline-block;
+    }
+}

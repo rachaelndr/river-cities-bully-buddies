@@ -1,0 +1,13 @@
+footer {
+    background: lighten($color-sec, 15%);
+    background-size: cover;
+    @extend %centered;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    a {
+        @extend %centered;
+        padding: 20px;
+        display: inline;
+    }
+}
