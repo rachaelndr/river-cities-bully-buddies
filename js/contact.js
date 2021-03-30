@@ -1,3 +1,6 @@
+//This doesn't want to work... It'll either show the first error message and only that one
+// or it'll just show the form submitted alert, even if nothing is filled out.
+
 const userName = document.querySelector(`#name`);
 const userPhone = document.querySelector(`#phone`);
 const userEmail = document.querySelector(`#email`);
