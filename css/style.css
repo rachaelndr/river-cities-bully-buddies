@@ -68,7 +68,8 @@ textarea {
 .main-header {
   background: linear-gradient(#d07f83, #fff, #fade12);
   background-size: cover;
-  font-family: Georgia, Times, serif; }
+  font-family: Georgia, Times, serif;
+  font-size: 1em; }
 
 .nav a {
   padding: 20px;
