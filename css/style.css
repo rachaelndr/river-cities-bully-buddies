@@ -69,7 +69,7 @@ textarea {
   background: linear-gradient(#d07f83, #fff, #fade12);
   background-size: cover;
   font-family: Georgia, Times, serif;
-  font-size: 2em; }
+  font-size: 1.2em; }
 
 .nav a {
   padding: 20px;
@@ -189,7 +189,7 @@ textarea {
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   position: relative; }
-  .story .textOver {
+  .story div {
     position: absolute;
     color: #fff;
     padding: 8px;
@@ -199,7 +199,6 @@ textarea {
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 16px;
-    padding-top: 35%;
     text-align: center;
     opacity: 0;
     visibility: hidden;
@@ -207,7 +206,6 @@ textarea {
 
 .story.show div {
   opacity: 1;
-  padding-top: 40%;
   visibility: visible; }
 
 * {
