@@ -61,12 +61,65 @@
         Adopt a Buddy Today
         <img class="paw" src="icons/paw.svg" alt="Dog pawprint">
       </h1>
-      <img class="picture"
-        srcset="pictures/pups@2x.jpg 2x,
-                pictures/pups@1x.jpg 1x"
-        src="pictures/pups@1x.jpg"
-        alt="Currently available puppies for adoption."
-        /><br>
+
+      <!--Image slideshow-->
+      <div class="slideshow">
+
+        <div class="slides fade">
+        <img src="pictures/adoptable/anisa.jpg"
+          alt="Anisa, the blue American Bully"
+          style="width:100%">
+        <div class="pictureCaption">Anisa</div>
+        </div>
+
+        <div class="slides fade">
+        <img src="pictures/adoptable/asteria.jpg"
+          alt="Asteria, the chocloate Pit Bull Terrier Mix" 
+          style="width:100%">
+        <div class="pictureCaption">Asteria</div>
+        </div>
+
+        <div class="slides fade">
+          <img src="pictures/adoptable/charm.jpg"
+            alt="Charm, the blue and white Pit Bull Terrier / Hound Mix" 
+            style="width:100%">
+          <div class="pictureCaption">Charm</div>
+          </div>
+
+          <div class="slides fade">
+            <img src="pictures/adoptable/chiara.jpg"
+              alt="Chiara, the orange and white Pit Bull Terrier Mix" 
+              style="width:100%">
+            <div class="pictureCaption">Chiara</div>
+            </div>
+
+        <div class="slides fade">
+        <img src="pictures/adoptable/ella.jpg" 
+          alt="Ella, the merle Pit Bull Terrier and Catahoula Leopard Dog Mix" 
+          style="width:100%">
+        <div class="pictureCaption">Ella</div>
+        </div>
+
+        <div class="slides fade">
+        <img src="pictures/adoptable/icarus.jpg" 
+          alt="Icarus, the chocolate cream Pit Bull Terrier Mix" 
+          style="width:100%">
+        <div class="pictureCaption">Icarus</div>
+        </div>
+
+        <div class="slides fade">
+        <img src="pictures/adoptable/isadora.jpg" 
+          alt="Isadora, the Tricolor Bull Terrier" 
+          style="width:100%">
+        <div class="pictureCaption">Isadora</div>
+        </div>
+
+        <!--Next and previous buttons-->
+        <a class="prev" onclick="nextSlide(-1)">&#10094;</a>
+        <a class="next" onclick="nextSlide(1)">&#10095;</a>
+      </div>
+
+
         <button type="button" class="bone">
           <div class="c1"></div>
           <div class="c2"></div>
@@ -120,5 +173,6 @@
   <p><a href="https://www.facebook.com/rivercitiesbullybuddies/"><img src="icons/facebook.png" alt="Facebook logo"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/river.cities.bully.buddies/"><img src="icons/instagram.png" alt="Instagram logo"></a></p>
 </footer>
     
+    <script src="js/adopt.js"></script>
   </body>
 </html>
