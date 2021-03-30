@@ -1,0 +1,28 @@
+const userName = document.querySelector(`#name`);
+const userPhone = document.querySelector(`#phone`);
+const userEmail = document.querySelector(`#email`);
+const userReason = document.querySelector(`#reason`);
+
+const form = document.querySelector(`.bone`);
+
+
+form.addEventListener("click", () => {
+    if (userName === null || userName === " ") {
+        alert(`Please provide your full name.`);
+        userName.focus();
+        userName.style.backgroundColor = red;
+        return false;
+    } else if (userPhone == null || userPhone == " ") {
+        alert(`Please provide your phone number.`);
+        userPhone.focus();
+        userPhone.style.color = red;
+        return false;
+    } else if (userEmail == " ") {
+        alert(`Please provide your e-mail address.`);
+        userEmail.focus();
+        userEmail.style.color = red;
+        return false;
+    } else {
+        alert(`Form submitted!`)
+    }
+});
