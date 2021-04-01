@@ -72,6 +72,7 @@ textarea {
   font-size: 1.2em; }
 
 .nav a {
+  font-size: 1.2em;
   padding: 20px;
   display: inline-block; }
 
@@ -82,6 +83,7 @@ footer {
   flex-direction: column;
   padding: 10px; }
   footer a {
+    font-size: 1.2em;
     padding: 20px;
     display: inline; }
 
