@@ -37,6 +37,10 @@ p {
     width: 50%;
 }
 
+address {
+    margin: 0px 25px;
+}
+
 
 /* Pseudo-classes ------------------ */
 
@@ -52,4 +56,9 @@ a {
         color: $lotus;
         text-decoration: underline wavy;
     }
+}
+
+abbr {
+    color: red;
+    text-decoration: none;
 }

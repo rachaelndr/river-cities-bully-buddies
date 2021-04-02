@@ -28,6 +28,9 @@ p {
   display: block;
   width: 50%; }
 
+address {
+  margin: 0px 25px; }
+
 /* Pseudo-classes ------------------ */
 a:link {
   color: #3e6484;
@@ -38,7 +41,12 @@ a:hover {
   color: #7c3f3d;
   text-decoration: underline wavy; }
 
-h1, .main-header, .nav a, footer, footer a, .form, fieldset {
+abbr {
+  color: red;
+  text-decoration: none; }
+
+h1, .main-header, .nav a, footer, footer a, .form, fieldset, input,
+textarea, #toggleList, .list, .toggleSect, .sect {
   text-align: center; }
 
 .column {
@@ -93,7 +101,7 @@ footer {
 fieldset {
   display: inline-block;
   border: 2px solid #d07f83;
-  padding: 10px 10px;
+  padding: 10px 1px;
   margin: 0 0 10px 0;
   width: 75%; }
 
@@ -104,10 +112,25 @@ textarea {
   margin: 10px 0;
   box-shadow: 0 0 1px 1px #676767; }
 
+input[aria-invalid="true"],
+textarea[aria-invalid="true"] {
+  border: 1px solid red;
+  box-shadow: 0 0 4px 0 red; }
+
 #toggleList {
+  border: 1px solid #3e6484;
   cursor: pointer; }
 
 .list {
+  display: none;
+  list-style-type: none; }
+
+.toggleSect {
+  display: block;
+  color: #fff;
+  background-color: #d07f83; }
+
+.sect {
   display: none; }
 
 @media (min-width: 768px) {
