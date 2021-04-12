@@ -46,7 +46,7 @@ abbr {
   text-decoration: none; }
 
 h1, .main-header, .nav a, footer, footer a, .form, fieldset, input,
-textarea, #toggleList, .list, .toggleSect, .sect, .policy {
+textarea, #toggleList, .list, .toggleSect, .sect, #clickPrompt, .policy {
   text-align: center; }
 
 .column {
